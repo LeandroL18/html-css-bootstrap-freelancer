@@ -15,6 +15,7 @@
 
 .bg_black{
     background-color: black;
+    color: white;
 }
 
 .text_center{
@@ -22,9 +23,12 @@
 }
 
 .padding_container{
-    padding: 20px 5px ;
+    padding: 20px 10px ;
 }
 
+.center{
+    margin: 0 auto;
+}
 /* Stili jumbotron */
 #jumbotron{
     margin-top: 50px;
@@ -88,9 +92,6 @@
 }
 
 /* Stili contact container */
-#contact_container{
-    padding: 10px 60px;
-}
 #send{
     text-decoration: none;
     color: white;
@@ -98,4 +99,26 @@
     border-radius: 5px;
     background-color: rgb(0, 190, 161);
     padding: 5px;
+}
+
+/* Stili footer */
+footer a{
+    text-decoration: none;
+    color:  rgb(0, 190, 161);
+}
+footer span{
+    display: block;
+}
+.fa-brands{
+    font-size: 15px;
+    margin: 5px 10px 0 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+.fa-facebook-f{
+    padding: 15px 20px 15px 20px;
+}
+.fa-linkedin-in{
+    padding: 15px 18px 15px 18px;
 }
