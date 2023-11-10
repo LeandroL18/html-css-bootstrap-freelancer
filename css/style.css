@@ -4,18 +4,98 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
 }
+
 
 .bg_green{
     background-color: rgb(0, 190, 161);
     color: white;
-    /* DEBUG */
-    min-height: 220px;
+    
 }
 
-.bg_white{
-    /* DEBUG */
-    min-height: 220px;
+.bg_black{
+    background-color: black;
 }
 
+.text_center{
+    text-align: center;
+}
+
+.padding_container{
+    padding: 20px 5px ;
+}
+
+/* Stili jumbotron */
+#jumbotron{
+    margin-top: 50px;
+}
+#jumbotron img{
+    margin-top: 20px;
+    width: 30%;
+}
+.riga{
+    display: flex;
+    justify-content: center;
+}
+.fa-star{
+    line-height: 30px;
+    margin: 0 5px;
+    font-size: 30px;
+}
+.riga hr{
+    width: 70px;
+    border: 2px solid ;
+    border-radius: 10%;
+}
+#jumbotron span{
+    font-size: 90%;
+}
+
+/* Stili portfolio */
+.card{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cabin{
+    background-color: brown;
+}
+.cake{
+    background-color: rgb(62, 171, 214);
+}
+.game{
+    background-color: rgb(0, 132, 255);
+}
+.safe{
+    background-color: blue;
+}
+.submarine{
+    background-color: rgb(205, 179, 148);
+}
+
+/* Stili about container */
+#about_container{
+    padding: 10px 60px;
+}
+#download{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Stili contact container */
+#contact_container{
+    padding: 10px 60px;
+}
+#send{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(0, 190, 161);
+    border-radius: 5px;
+    background-color: rgb(0, 190, 161);
+    padding: 5px;
+}
